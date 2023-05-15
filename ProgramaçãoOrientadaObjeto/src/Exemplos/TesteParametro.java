@@ -2,7 +2,7 @@ package Exemplos;
 
 public class TesteParametro 
 {
-	public static void m(AParametro obj)
+	public static void main(AParametro obj)
 	{
 		obj.setA(10);
 		obj.setB(20);
@@ -16,7 +16,7 @@ public class TesteParametro
 		obj2 = new AParametro(7,8,9);
 		obj1.imprimeValores();
 		obj2.imprimeValores();
-		m(obj1);
+		main(obj1);
 		obj1.imprimeValores();
 
 	}

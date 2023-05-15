@@ -22,6 +22,6 @@ public class AParametro
 	
 	public void imprimeValores() 
 	{
-		System.out.printf("\nvalor da variavel A, B e C %d, %d, %d\n",this.a, this.b, this.c);
+		System.out.println();
 	}
 }

@@ -14,13 +14,13 @@ public class Concessionaria
 	public class Cliente
 	{
 		String nome;     //ATRIBUTOS
-		String endereço;  //ATRIBUTOS
+		String endereco;  //ATRIBUTOS
 		int idade;       //ATRIBUTOS
 		int CPF;     //ATRIBUTOS
 		String formaPagamento;  //ATRIBUTOS	
 		
 	}
-	public class Transação
+	public class Transacao
 	{
 		double valor;     //ATRIBUTOS
 		String vender;  //ATRIBUTOS
@@ -28,7 +28,7 @@ public class Concessionaria
 		int tipoPagamento;  //ATRIBUTOS	
 		String dataCompra;  //ATRIBUTOS	
 		String dataVenda;  //ATRIBUTOS	
-		int tipoTransação; // ATRIBUTOS
+		int tipoTransacaoo; // ATRIBUTOS
 		
 	}
 	
